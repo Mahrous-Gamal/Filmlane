@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmlane - Best movie collections</title>
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="shortcut icon" href="./Images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="scrolling-up"><i class="fa-regular fa-circle-up"></i></div>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary  fixed-top " data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="Images/logo.svg">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-xl-5 ">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="#">Movie</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Tv Show</a>
+          </li>
+          <li class="nav-item "">
+            <a class=" nav-link href="#">Web Series</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <!-- <i class="fa-solid fa-magnifying-glass mx-5 text-white icon-search"></i> -->
+        <!-- <ul class="list-unstyled mt-4">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              En
+            </a> -->
+        <!-- <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">En</a></li>
+              <li><a class="dropdown-item" href="#">Ar</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul> -->
+        <!-- </li>
+        </ul> -->
+        <!-- <button class="btn-signin bg-dark">Sign in</button> -->    
+        <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      </div>
+    </div>
+  </nav>
+  <!----main secton-->
+  <div class="main-section">
+    <div class="text-main">
+      <h2 class="mt-3 general-color">Filmlane</h2>
+      <P class="para-main">Unlimited <span>Movie</span>,<br> TVs Shows, & More.</P>
+      <ul class="list-unstyled d-flex">
+        <li>PG</li>
+        <li>Hd</li>
+        <li>Romance, Drama</li>
+        <li><i class="fa-solid fa-calendar-days me-2 general-color"></i>2023</li>
+        <li><i class="fa-regular fa-clock me-2 general-color"></i>128 min</li>
+      </ul>
+      <button class="watch mt-5"><i class="fa-solid fa-caret-right me-2 icon-watch "></i>Watch Now</button>
+    </div>
+  </div>
+  <!----moves-->
+  <div class="movies">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <p class="general-color">ONLINE STREAMING</p>
+          <h2>Upcoming Movies</h2>
+        </div>
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
+          <div class="buttons ms-auto">
+            <button>Movies</button>
+            <button>Tv Shows</button>
+            <button>Anime</button>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html"> 
+              <img src="Images/upcoming-1.png" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/upcoming-2.png" class="card-img-top" alt="...">
+            </a>
+
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/upcoming-3.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span
+                  class="border border-1 border-white px-1 py-1 general-color ">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/upcoming-4.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="download-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5">
+          <div class="image-download-section">
+            <img src="Images/service-banner.jpg" alt="">
+
+          </div>
+
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-12  col-sm-12 col-xs-12 mt-5">
+          <div class="txt-download-section mt-5">
+            <div class="line">
+
+            </div>
+            <span>OUR SERVICES</span>
+
+            <h2 class="mt-3">Download Your Shows Watch Offline.</h2>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many
+              variations of passages of lorem Ipsum available, but the majority have suffered alteration in some
+              injected humour.</p>
+            <div class="row mt-5">
+              <div class="col-lg-3 mt-4">
+                <div class="image-txt-download-section">
+                  <i class="fa-solid fa-tv fs-1"></i>
+                </div>
+
+              </div>
+              <div class="col-9 mt-4">
+                <div class="info-txt-download-section">
+                  <h2>Enjoy on Your TV.</h2>
+                  <p>Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+
+                </div>
+              </div>
+              <div class="col-lg-3 mt-4">
+                <div class="image-txt-download-section">
+                  <i class="fa-solid fa-video fs-1"></i>
+                </div>
+
+              </div>
+              <div class="col-9 mt-4">
+                <div class="info-txt-download-section">
+                  <h2>Enjoy on Your TV.</h2>
+                  <p>Lorem ipsum dolor sit amet, consecetur adipiscing elit, sed do eiusmod tempor.</p>
+
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <div class="top-rated-movies">
+    <p class="general-color text-center my-4">ONLINE STREAMING</p>
+    <h2 class="fw-bold text-white fs-2 text-center mb-5">Top Rated Movies</h2>
+    <ul class="list-unstyled d-flex list-in-top-rated-movies">
+      <li>Moives</li>
+      <li class="ms-2">TV Show</li>
+      <li class="ms-2">Documentary</li>
+      <li class="ms-2">Sports</li>
+    </ul>
+  </div>
+
+
+  <div class="movies-top">
+    <div class="container">
+      <div class="row ">
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-1.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-2.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-3.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span
+                  class="border border-1 border-white px-1 py-1 general-color ">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-4.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-5.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-6.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-7.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span
+                  class="border border-1 border-white px-1 py-1 general-color ">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/movie-8.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="word-best">
+    <p class="general-color text-center my-4">ONLINE STREAMING</p>
+    <h2 class="fw-bold text-white fs-2 text-center mb-5">Top Rated Movies</h2>
+
+  </div>
+
+  <div class="best-tv">
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/series-1.png" class="card-img-top" alt="...">
+
+            </a>
+
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/series-2.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/series-3.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span
+                  class="border border-1 border-white px-1 py-1 general-color ">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 mt-4 col-sm-6 col-xs-12 mt-2">
+          <div class="card bg-dark">
+            <a href="./movie-details.html">
+              <img src="Images/series-4.png" class="card-img-top" alt="...">
+
+            </a>
+            <div class="card-body">
+              <p class="card-text "><span>The northman</span><span class="general-color span-text">2023</span></p>
+              <p class="card-text "><span class="border border-1 border-white px-1 py-1 general-color">Hd</span><Span><i
+                    class="fa-regular fa-clock general-color me-2"></i>137m <i
+                    class="fa-solid fa-star me-2 general-color"></i>8.5</Span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="trial-start">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="txt-trial-start">
+            <h2 class="fw-bold">TRIAL START FIRST 30 DAYS.</h2>
+            <p class="fw-medium">Enter your email to create or restart your membership.</p>
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          <div class="input-button">
+            <input type="text" name="" id="" placeholder="Enter Your Email">
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5">
+          <div class="image-footer">
+            <img src="Images/logo.svg" alt="">
+          </div>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5">
+          <ul class="list-unstyled">
+            <li>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li>
+              <a class="nav-link " href="#">Movie</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Tv Show</a>
+            </li>
+            <li>
+              <a class="nav-link  href=" #">Web Series</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="line">
+      </div>
+
+      <div class="row pb-4">
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-2">
+          <ul class="list-unstyled links-footer">
+            <li>
+              <a class="nav-link " href="#">FAQ</a>
+            </li>
+            <li>
+              <a class="nav-link " href="#">HELP</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">TEAMS</a>
+            </li>
+            <li>
+              <a class="nav-link  href=" #">Series</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">PRIVCY</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-2">
+          <ul class="list-unstyled  icons-footer ms-auto">
+            <li>
+              <a class="nav-link"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a class="nav-link " href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a class="nav-link" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </li>
+            <li>
+              <a class="nav-link " href=" #"><i class="fa-brands fa-linkedin-in"></i></a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="copy-rihgts">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            <div class="txt-copy-rihgts mt-5  ">
+              © 2023 <span class="general-color">M</span>ahrous <span class="general-color  ">G</span>amal. All Rights
+              Reserved
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5">
+            <div class="image-copy-rihgts">
+              <img src="Images/footer-bottom-img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="JS/all.min.js"></script>
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/bootstrap.bundle.min.js.map"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
