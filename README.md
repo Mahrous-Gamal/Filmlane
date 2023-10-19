@@ -5,6 +5,9 @@
 
 ## [Website Demo](https://mahrous-gamal.github.io/Filmlane/)
 
+![image](https://github.com/Mahrous-Gamal/Filmlane/assets/105131896/5a5ce5c4-b532-4505-8f7d-a499f6f788f1)
+
+
 ### Prerequisites
 
 Before you begin, ensure you have met the following requirements:
